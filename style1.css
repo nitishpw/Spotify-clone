@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#79be79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.outer-container{
+    box-shadow:0 4px 6px #90ee90 ;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0000001a;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0000001a;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-box, .subscription-box {
+    padding: 20px;
+    color: #ffff;
+    margin-top: 30px;
+}
+.login-box label{
+    margin-right: 150px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.text p{
+    font-size: 15px;
+    
+}
+
+.subscription-box ul li{
+    font-size: 18px;
+    padding: 12px;
+}
+
+.spotify-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 8px 0;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    border-bottom: 2px solid #1DB954;
+    font-size: 16px;
+    color: white;
+}
+
+button, #subscribe-button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover, #subscribe-button:hover {
+    background-color: #179c3c;
+}
+
+.subscription-info {
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.subscription-info a {
+    color: #1DB954;
+    text-decoration: none;
+}
